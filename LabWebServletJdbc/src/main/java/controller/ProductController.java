@@ -20,6 +20,7 @@ import model.ProductBean;
 import model.ProductService;
 import model.spring.CustomPrimitiveNumberEditor;
 
+
 @Controller
 @RequestMapping(path={"/pages/product.controller"})
 public class ProductController {
