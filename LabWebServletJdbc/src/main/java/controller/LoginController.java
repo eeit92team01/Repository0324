@@ -21,8 +21,7 @@ import model.CustomerService;
 public class LoginController {
 	@Autowired
 	private CustomerService customerService;
-	
-	int a = 1;
+
 	@RequestMapping(method={RequestMethod.GET, RequestMethod.POST})
 	public String method(
 			@RequestParam(name="username") String username,
